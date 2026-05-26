@@ -301,3 +301,15 @@ padding: 20px;
     justify-content: center;
     text-align: center;
 }
+
+.line {
+  height: 1px;
+  width: 100vw;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.8),
+    transparent
+  );
+}
